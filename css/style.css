@@ -8,10 +8,12 @@ body {
 /* ================ navigation ================ */
 
 .navbar {
-  background-color: rgb(163, 224, 157) !important;
+  background-color: rgb(157, 186, 224) !important;
   box-shadow: 0px 10px 10px grey;
   width: 100%;
-  position: fixed;
+}
+.navbar .navbar-toggler {
+  border: none;
 }
 /* ================ quem somos ================ */
 .quem-somos {
