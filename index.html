@@ -14,6 +14,11 @@
     />
     <!-- style -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <!-- Navigation -->
@@ -36,15 +41,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#quem-somos"
-                >Quem somos</a
+              <a class="nav-link active" aria-current="page" href="#quem-sou-eu"
+                >Quem sou eu</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#parceiros">Parceiros</a>
+              <a class="nav-link" href="#estudos">Estudos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#servicos">Servicos</a>
+              <a class="nav-link" href="#contato">Contato</a>
             </li>
           </ul>
         </div>
@@ -53,45 +58,103 @@
     <!-- Quem Somos -->
     <section id="quem-somos">
       <div class="container-fluid quem-somos text-center margin">
-        <h3>Quem somos</h3>
+        <h3>Quem sou eu?</h3>
         <img
-          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          src="/assets/images/1532560997854.jpeg"
           alt="Pessoas usando computadores"
           width="250"
           height="250"
           class="rounded-circle img-center"
         />
-        <p>Somos um time comprometido com os resultados</p>
+        <p>
+          Atualmente Analista de negócios em TI na empresa Unimed Natal e
+          Bacharel em Ciência e Tecnologia na Universidade Federal do Rio Grande
+          do Norte (UFRN). Formado no curso Técnico em Eletrônica no Instituto
+          Federal de Educação, Ciências e Tecnologia do RN (IFRN), tendo
+          apresentado projetos em várias feiras internacionais como a Febrace
+          (São Paulo-SP/2015), Mostratec (Novo Hamburgo-RS/2013) e a maior feira
+          internacional de ciências de nível médio do mundo, a Intel ISEF (Los
+          Angeles-EUA/2014), recebendo, nesta última, a premiação de um dos 50
+          melhores projetos do continente americano pela Organização dos Estados
+          Americanos (OEA).
+        </p>
       </div>
     </section>
+    <div class="divider"></div>
     <!-- Parceiros -->
-    <section id="parceiros">
-      <div class="container-fluid text-center parceiros margin">
-        <h3>Parceiros</h3>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
+    <section id="estudos">
+      <div class="container-fluid text-center estudos margin">
+        <h3>Estudos</h3>
+        <p>
+          Atualmente, tenho focado meus estudos em frontEnd, mais precisamente
+          aprofundando meus conhecimentos em HTML5, CSS3, javascript e o
+          framework bootstrap. Entretanto, meu interesse é ser programador full
+          stack, focado em ReactJS, Angular, NodeJS e javascript.
+        </p>
+        <div class="container swiper">
+          <div class="swiper-wrapper">
+            <div class="card swiper-slide">
               <img
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Fpremium%2Fpng-256-thumb%2Finnovation-103-478244.png&f=1&nofb=1"
-                alt="Arte de uma lampada"
+                src="assets/images/317755_badge_html_html5_achievement_award_icon.png"
+                alt="hml5 logo"
               />
+              <h4>HTML 5</h4>
             </div>
-            <div class="col-md-4">
+
+            <div class="card swiper-slide">
               <img
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Fpremium%2Fpng-256-thumb%2Finnovation-103-478244.png&f=1&nofb=1"
-                alt=""
+                src="assets/images/4202020_css3_html_logo_social_social media_icon.png"
+                alt="css3 logo"
               />
+              <h4>CSS 3</h4>
             </div>
-            <div class="col-md-4">
+
+            <div class="card swiper-slide">
               <img
-                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.iconscout.com%2Ficon%2Fpremium%2Fpng-256-thumb%2Finnovation-103-478244.png&f=1&nofb=1"
-                alt=""
+                src="assets/images/1269842_development_install_javascript_js_node_icon.png"
+                alt="javascript logo"
               />
+              <h4>Javascript</h4>
+            </div>
+
+            <div class="card swiper-slide">
+              <img
+                src="assets/images/7423887_react_react native_icon.png"
+                alt="react logo"
+              />
+              <h4>ReactJS</h4>
+            </div>
+
+            <div class="card swiper-slide">
+              <img
+                src="assets/images/8666135_bootstrap_icon.png"
+                alt="bootstrap logo"
+              />
+              <h4>Bootstrap</h4>
+            </div>
+
+            <div class="card swiper-slide">
+              <img
+                src="assets/images/1145600_angular_coding_development_front-end_javascript_icon.png"
+                alt="angular logo"
+              />
+              <h4>Angular</h4>
+            </div>
+
+            <div class="card swiper-slide">
+              <img
+                src="assets/images/1012819_code_development_logo_nodejs_icon.png"
+                alt="NodeJS logo"
+              />
+              <h4>NodeJS</h4>
             </div>
           </div>
+
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </section>
+    <div class="divider"></div>
     <!-- servicos -->
     <section id="servicos">
       <div class="container-fluid text-center margin servicos">
@@ -144,5 +207,9 @@
       </ul>
       <p class="text-center text-muted">© 2021 Minha página</p>
     </footer>
+    <!-- swiper-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- script -->
+    <script src="main.js"></script>
   </body>
 </html>
